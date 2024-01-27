@@ -1,0 +1,37 @@
+.nav-button, .nav-link{
+    transition-property: all;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition-duration: 150ms;
+    padding:0  .5rem;
+    border-radius: .375rem;
+}
+.nav-link{
+    
+    margin: .5rem;
+
+}
+.active, .nav-link:hover, .nav-button:hover{
+    --tw-bg-opacity: 1;
+    padding: .25rem .75rem;
+    background-color: rgb(156 163 175/ var(--tw-bg-opacity));
+    color: rgba(255, 255, 255, 1);
+}
+.nav-end{
+    display: flex;
+    ialign-items: center;
+}
+.nav-end__link{
+    margin: 0 .5rem;
+}
+.top-cart__number{
+    position: absolute;
+    top: -0.5rem;
+    right: -0.5rem;
+    border-radius: 50%;
+    background-color: rgba(29, 78, 216, 1);
+    color: rgba(255, 255, 255, 1);
+    font-weight: 700;
+    font-size: .75rem;
+    line-height: 1rem;
+    padding: 0 .25rem;
+}
